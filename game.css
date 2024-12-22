@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+body{
+    background-color: rgb(62, 72, 86);
+    font-family: Helvetica, sans-serif;
+}
+/* Heading section */
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(224, 55, 80);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.header h2{
+    color: white;
+    font-size: 30px;
+    
+}
+/* Choices section */
+.choices{
+    margin-top: 50px;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.choice:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.choice img{
+    object-fit: cover;
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Score board Section */
+.score-board{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 2.5rem;
+}
+.score{
+    background-color: rgb(97, 158, 249);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px 4px 8px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+/* mssg container */
+.msg-container{
+    margin-top: 3rem;
+} 
+#msg{
+    font-size: 2.5rem;
+    color: whitesmoke;
+    font-weight: 500;
+    background-color: rgb(97, 158, 249);
+    display: inline;
+    padding: 4px 8px 4px 8px;
+    border-radius: 0.5rem;
+
+
+}
